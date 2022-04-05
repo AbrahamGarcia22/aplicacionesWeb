@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import Drawer from './Components'
+import Drawer from './Componentes/Components'
+import {Router } from '@mui/icons-material';
+import { Switch } from '@mui/material';
+import {Home, About} from "./Funciones/Routes"
 
 
 function App() {
@@ -21,6 +24,16 @@ function App() {
         >
           Learn React
         </a>
+        {/* <Router>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+          </Switch>
+        </Router> */}
       </header>
     </div>
   );
